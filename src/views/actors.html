@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actors Smart Visualizer</title>
+    <!-- Iconscount cdn -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Goofle fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Swiper Js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/actors.css">
+
+    <style>
+        body {
+            background-image: url("../static/images/bck.jpg");
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar"></div>
+
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <h4>AcVis</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="actors.html">Actors</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-list-ul"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+
+    <section class="container photo-grid">
+        <div class="search">
+            <form action="#" method="get" class="search-bar">
+                <input type="text" placeholder="Search" name="q">
+                <button type="submit" class="search"><i class="uil uil-search"></i></button>
+            </form>
+        </div>
+        <div class="actors__container">
+            <div class="sidebar">
+                <form id="sort-form" action="#" method="get">
+                    <div class="sidebar-groups">
+                        <h3 class="sg-title">Alfabetic</h3>
+                        <input type="radio" id="alphabet_asc" name="sort_by_alphabet" value="asc">
+                        <label for="alphabet_asc">A-Z</label><br>
+                        <input type="radio" id="alphabet_desc" name="sort_by_alphabet" value="desc">
+                        <label for="alphabet_desc">Z-A</label><br>
+                    </div>
+                    <div class="sidebar-groups">
+                        <h3 class="sg-title">An</h3>
+                        <input type="radio" id="year_asc" name="sort_by_year" value="asc">
+                        <label for="year_asc">Ascendent</label><br>
+                        <input type="radio" id="year_desc" name="sort_by_year" value="desc">
+                        <label for="year_desc">Descendent</label><br>
+                    </div>
+                    <div class="sidebar-groups">
+                        <h3 class="sg-title">Rank</h3>
+                        <input type="radio" id="rank_asc" name="sort_by_rank" value="asc">
+                        <label for="rank_asc">Ascendent</label><br>
+                        <input type="radio" id="rank_desc" name="sort_by_rank" value="desc">
+                        <label for="rank_desc">Descendent</label><br>
+                    </div>
+                    <button type="submit" class="sort">Sort</button>
+                    <button type="reset" id="reset-btn" class="reset" value="actors.html">Reset</button>
+                </form>
+            </div>
+            <div class="actors">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo">
+                    <h4>AcVis</h4>
+                </a>
+                <p>
+                    The AcVis website keeps you in touch with the Hollywood life.
+                </p>
+            </div>
+
+            <div class="footer__2">
+                <h4> Permalinks </h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="actors.html">Actors</a></li>
+                    <li><a href="statistics.html">Statistics</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4> Contact Us </h4>
+                <div>
+                    <p>+0335 234 567</p>
+                    <p>actorsvis@gmail.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li><a href="#"></a><i class="uil uil-facebook"></i></li>
+                    <li><a href="#"></a><i class="uil uil-instagram"></i></li>
+                    <li><a href="#"></a><i class="uil uil-twitter"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
