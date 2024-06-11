@@ -3,6 +3,7 @@
 Componenta echipa:
 
 Grigore Valerian
+si
 Andriesei Beniamin-Andrei
 
 Actors Smart Visualizer (AcVis) is a powerful web tool developed as part of the "Web Technologies" course. This tool provides flexible visualization of data related to actor nominations at the Screen Actors Guild (SAG) Awards, utilizing a custom REST API. Additional information about each actor and their filmography is fetched from The Movie Database (TMDb). AcVis supports news playback for each nominee and allows users to export statistics and visualizations in CSV, WebP, and SVG formats.
